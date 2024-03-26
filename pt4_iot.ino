@@ -4,11 +4,11 @@
 #include <DHT.h>
 
 // Wifi network station credentials
-#define WIFI_SSID "NS"
-#define WIFI_PASSWORD "nabil@saragih"
+#define WIFI_SSID ""
+#define WIFI_PASSWORD ""
 
 // Telegram BOT Token (Get from Botfather)
-#define BOT_TOKEN "6894337885:AAHdSypu6Kn7KoA9QAqEJ96rhMLdg3b1LKQ"
+#define BOT_TOKEN ""
 
 const unsigned long BOT_MTBS = 1000; // mean time between scan messages
 
@@ -30,9 +30,9 @@ int ledStatus2 = 0;
 int ledStatus3 = 0;
 int ledStatus4 = 0;
 
-String user1_chat_id = "1296995121";
-String user2_chat_id = "5582628890";
-String user3_chat_id = "1197170312";
+String user1_chat_id = "";
+String user2_chat_id = "";
+String user3_chat_id = "";
 
 DHT dht(DHTPIN, DHTTYPE);
 
