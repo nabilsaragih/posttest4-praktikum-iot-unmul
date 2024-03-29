@@ -4,13 +4,13 @@
 #include <DHT.h>
 
 // Wifi network station credentials
-#define WIFI_SSID ""
-#define WIFI_PASSWORD ""
+#define WIFI_SSID "NS"
+#define WIFI_PASSWORD "nabil@saragih"
 
 // Telegram BOT Token (Get from Botfather)
 #define BOT_TOKEN ""
 
-const unsigned long BOT_MTBS = 1000; // mean time between scan messages
+const unsigned long BOT_MTBS = 250; // mean time between scan messages
 
 X509List cert(TELEGRAM_CERTIFICATE_ROOT);
 WiFiClientSecure secured_client;
