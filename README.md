@@ -1,28 +1,33 @@
-# posttest4-praktikum-iot-unmul
+# posttest4-praktikum-iot-unmul-2024
 
 ## Nama dan NIM anggota kelompok
 1. Muhammad Nabil Saragih (2209106032)
-2. Joy Disanto Nupa (2209106014)
-3. Achmad Nur Bani Suta (2209106016)
+2. Achmad Nur Bani Suta (2209106016)
+3. Joy Disanto Nupa (2209106014)
 
 ## Judul studi kasus
-Menyalakan dan Mematikan LED melalui Kontrol Webserver.
+Monitoring dan kontrol melalui Telegram
 
 ## Deskripsi
-Sistem ini memungkinkan pengguna untuk mengontrol LED dari jarak jauh melalui antarmuka web.
+Monitoring dan kontrol melalui bot Telegram
+
+## Metode IoT
+Monitoring dan kontrol melalui bot Telegram, akses bot didapat melalui token yang telah disediakan oleh Botfather.
 
 ## Pembagian Tugas
 - Joy Disanto Nupa: Merakit komponen
+- Achmad Nur Bani Suta: Membuat source code
 - Muhammad Nabil Saragih: Membuat source code
 
 ## Komponen yang Digunakan
 1. NodeMCU x1
-2. Lampu LED x2
-3. Resistor x2
-4. Kabel Jumper x4
+2. Lampu LED x4
+3. Resistor x4
+4. DHT11 x1
+5. Kabel x5
 
 ## Board Schematic
-![Board Schematic](https://github.com/nabilsaragih/posttest1-praktikum-iot-unmul-2024/blob/main/Schematic.png)
+![Board Schematic](https://github.com/nabilsaragih/posttest4-praktikum-iot-unmul/blob/main/pt4.jpg)
 
 ## Lampiran
-[LINK YOUTUBE](https://youtu.be/ct0IOIZEeCM)
+[LINK YOUTUBE](https://youtu.be/TeNCIs5slqs)
